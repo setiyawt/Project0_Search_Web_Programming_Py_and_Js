@@ -1,0 +1,101 @@
+body {
+  background-color: #202124;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h5 {
+  margin: 20px 15px;
+  font-family: "arial", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.logo {
+  margin: auto;
+  margin-bottom: 120px;
+  width: 272px;
+  height: 92px;
+  position: relative;
+}
+.logo span {
+  margin: auto;
+  color: #3889da;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 215px;
+  bottom: -110%;
+}
+.logo img {
+  clear: both;
+  width: 272px;
+  height: 92px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8a8888;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #8a8888;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  float: right;
+}
+
+.card {
+  margin: 20px auto;
+  width: fit-content;
+  height: fit-content;
+}
+.card i {
+  color: #929090;
+  position: absolute;
+  top: 208px;
+  padding: 40px;
+}
+.card #search {
+  color: #64adf7;
+  position: absolute;
+  top: 298px;
+  right: 190px;
+  padding: 40px;
+}
+.card input {
+  margin: 20px;
+  width: 511px;
+  height: 44px;
+  border: 1px solid #616161;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: transparent;
+}
+.card input[type=text]:hover {
+  background-color: #4b4a4a;
+  border: 0px solid #4b4a4a;
+}
+.card input[type=text]:focus {
+  outline: none;
+  border: 1px solid #4b4a4a;
+  background-color: #4b4a4a;
+}
+.card input[type=text] {
+  padding-left: 50px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style_google_image.css.map */

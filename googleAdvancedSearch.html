@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <title>Google Anvanced Search</title>
+        <link rel="stylesheet" href="style_google_Advanced.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="shortcut icon" href="google.png" >
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="navbar">
+                    <div class="logo">
+                            <a href="index.html"><img src="logo.png" alt="google-logo"></a>
+                    </div>
+                </div>
+                <div class="menu">
+                        <a href="index.html"><span>Google Search</span></a>
+                </div>
+            </div>
+            <div class="title">
+                <span>Advanced Search</span>
+            </div>
+            <div class="content">
+                <div class="advancedSearch">
+                    <form action="https://google.com/search" name="q">
+                        <div class="row">
+                            <div class="column_title1">
+                                <h4>Find pages with...</h4>
+                            </div>
+                            <div class="column2"></div>
+                            <div class="column_title3">
+                                <h5>To do this in the search box</h5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column1">
+                                <label for="words" class="form-label">all these words:</label>
+                            </div>
+                            <div class="column2">
+                                <input type="text" name="as_q" class="form-control" id="words">
+                            </div>
+                            <div class="column3">
+                                <span>Type the important words: tri-colour rat terrier</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column1">
+                                <label for="pharase" class="form-label">this exact word or phrase:</label>
+                            </div>
+                            <div class="column2">
+                                <input type="text" name="as_epq" class="form-control" id="pharase">
+                            </div>
+                            <div class="column3">
+                                <span>Put exact words in quotes: "rat terrier"</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column1">
+                                <label for="any_words" class="form-label">any of these words:</label>
+                            </div>
+                            <div class="column2">
+                                <input type="text" name="as_oq" class="form-control" id="any_words">
+                            </div>
+                            <div class="column3">
+                                <span>Type OR between all the words you want: miniature OR standard</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column1">
+                                <label for="none_words" class="form-label">none of these words:</label>
+                            </div>
+                            <div class="column2">
+                                <input type="text" name="as_eq" class="form-control" id="none_words">
+                            </div>
+                            <div class="column3">
+                                <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column1"></div>
+                            <div class="column2">
+                                <button type="submit" class="btn">Advanced Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
